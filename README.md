@@ -2,6 +2,9 @@
 
 [![GitHub Stars](https://img.shields.io/github/stars/Shiva-rgb-a11y/WineFine?style=social)](https://github.com/Shiva-rgb-a11y/WineFine)  
 🔗 **Live on GitHub**: [https://github.com/Shiva-rgb-a11y/WineFine](https://github.com/Shiva-rgb-a11y/WineFine)
+![Uploading Screenshot 2025-07-15 152219.png…]()
+
+
 
 ---
 
