@@ -3,9 +3,9 @@
 [![GitHub Stars](https://img.shields.io/github/stars/Shiva-rgb-a11y/WineFine?style=social)](https://github.com/Shiva-rgb-a11y/WineFine)  
 🔗 **Live on GitHub**: [https://github.com/Shiva-rgb-a11y/WineFine](https://github.com/Shiva-rgb-a11y/WineFine)
 
+<img width="2859" height="1461" alt="output" src="https://github.com/user-attachments/assets/748ae8b0-dabd-4a61-b69a-af48dc33e8cb" />
 
-![WineFine Interface](![WineFine Interface](https://raw.githubusercontent.com/Shiva-rgb-a11y/WineFine/main/static/output.png)
-)
+
 
 
 
