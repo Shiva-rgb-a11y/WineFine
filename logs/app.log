@@ -1,0 +1,26 @@
+2025-07-14 23:46:03,122 - INFO - src.components.data_ingestion - Enter the data ingestion
+2025-07-14 23:46:03,134 - INFO - src.utils - Directory created or already exists: artifacts
+2025-07-14 23:46:03,173 - INFO - src.utils - YAML file loaded: schema.yaml
+2025-07-14 23:46:03,226 - INFO - src.utils - Directory created or already exists: artifacts\transformed
+2025-07-15 12:13:08,036 - INFO - src.components.data_ingestion - Enter the data ingestion
+2025-07-15 12:13:08,046 - INFO - src.utils - Directory created or already exists: artifacts
+2025-07-15 12:13:08,094 - INFO - src.utils - YAML file loaded: schema.yaml
+2025-07-15 12:16:33,073 - INFO - src.components.data_ingestion - Enter the data ingestion
+2025-07-15 12:16:33,077 - INFO - src.utils - Directory created or already exists: artifacts
+2025-07-15 12:16:33,124 - INFO - src.utils - YAML file loaded: schema.yaml
+2025-07-15 12:18:44,757 - INFO - src.components.data_ingestion - Enter the data ingestion
+2025-07-15 12:18:44,767 - INFO - src.utils - Directory created or already exists: artifacts
+2025-07-15 12:18:44,813 - INFO - src.utils - YAML file loaded: schema.yaml
+2025-07-15 12:19:30,185 - INFO - src.components.data_ingestion - Enter the data ingestion
+2025-07-15 12:19:30,192 - INFO - src.utils - Directory created or already exists: artifacts
+2025-07-15 12:19:30,230 - INFO - src.utils - YAML file loaded: schema.yaml
+2025-07-15 12:21:16,774 - INFO - src.components.data_ingestion - Enter the data ingestion
+2025-07-15 12:21:16,782 - INFO - src.utils - Directory created or already exists: artifacts
+2025-07-15 12:21:16,801 - INFO - src.utils - YAML file loaded: schema.yaml
+2025-07-15 12:23:35,691 - INFO - src.components.data_ingestion - Enter the data ingestion
+2025-07-15 12:23:35,702 - INFO - src.utils - Directory created or already exists: artifacts
+2025-07-15 12:23:35,733 - INFO - src.utils - YAML file loaded: schema.yaml
+2025-07-15 12:28:14,561 - INFO - src.components.data_ingestion - Enter the data ingestion
+2025-07-15 12:28:14,571 - INFO - src.utils - Directory created or already exists: artifacts
+2025-07-15 12:28:14,615 - INFO - src.utils - YAML file loaded: schema.yaml
+2025-07-15 12:28:14,646 - INFO - src.utils - Directory created or already exists: artifacts\transformed

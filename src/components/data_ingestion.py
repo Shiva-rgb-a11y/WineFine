@@ -1,6 +1,8 @@
 import os
 import sys
-import logging
+from src.logger import get_logger
+logger = get_logger(__name__)
+
 import pandas as pd
 from dataclasses import dataclass
 from sklearn.model_selection import train_test_split
@@ -20,7 +22,8 @@ class DataIngestion:
         self.ingestion_config = DataIngestionConfig()
 
     def initiate_data_ingestion(self):
-        logging.info("Enter the data ingestion")
+        logger.info("Enter the data ingestion")
+
         df = pd.read_csv(os.path.join("Jupyter notebook", "winequality-red.csv"))
 
         utils.create_directories(self.ingestion_config.train_data_path)
