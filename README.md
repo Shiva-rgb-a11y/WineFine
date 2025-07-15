@@ -4,7 +4,8 @@
 🔗 **Live on GitHub**: [https://github.com/Shiva-rgb-a11y/WineFine](https://github.com/Shiva-rgb-a11y/WineFine)
 
 
-![Uploading Screenshot 2025-07-15 152219.png…]()
+![WineFine Interface](https://raw.githubusercontent.com/Shiva-rgb-a11y/WineFine/main/static/red-wine.avif)
+
 
 
 
