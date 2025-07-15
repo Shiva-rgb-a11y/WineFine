@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🍷 Wine Quality Predictor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <div class="container">
+    <h1>🍷 Wine Quality Predictor</h1>
+
+    <form action="/predict" method="POST" class="form-grid">
+      {% for feature in ['fixed_acidity','volatile_acidity','citric_acid','residual_sugar',
+                         'chlorides','free_sulfur_dioxide','total_sulfur_dioxide',
+                         'density','pH','sulphates','alcohol'] %}
+        <input type="number" step="any" name="{{ feature }}" placeholder="{{ feature.replace('_', ' ').title() }}" required>
+      {% endfor %}
+
+      <button type="submit">Predict Quality</button>
+    </form>
+
+    {% if prediction_text %}
+      <p class="result">{{ prediction_text|safe }}</p>
+    {% endif %}
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

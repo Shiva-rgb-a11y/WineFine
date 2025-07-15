@@ -1,0 +1,87 @@
+/* --------- General Page Styling ---------- */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url("red-wine.avif") no-repeat center center fixed;
+  background-size: cover;
+  backdrop-filter: blur(3px);
+  color: white;
+}
+
+/* --------- Form Container ---------- */
+.container {
+  background-color: rgba(0, 0, 0, 0.6);
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+/* --------- Heading ---------- */
+h1 {
+  margin-bottom: 20px;
+  color: #f3c623;
+}
+
+/* --------- Grid Layout for Inputs ---------- */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* --------- Input Styling ---------- */
+input {
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  background-color: #fff1;
+  color: white;
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+input:hover,
+input:focus {
+  transform: scale(1.05);
+  background-color: #fff3;
+}
+
+/* --------- Predict Button Styling ---------- */
+button {
+  grid-column: 1 / -1;
+  padding: 12px;
+  background-color: #f3c623;
+  color: #000;
+  font-weight: bold;
+  border-radius: 12px;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  transform: scale(1);
+}
+
+button:hover {
+  background-color: #ff4c29;
+  color: white;
+  transform: scale(1.07);
+}
+
+/* --------- Result Styling ---------- */
+.result {
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: #fff3;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+}
